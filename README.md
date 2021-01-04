@@ -12,6 +12,9 @@
     >python manage.py createsuperuser
 6. Start the development server and ensure everything is running without errors.
     >python manage.py runserver
+7. Go to __*http://127.0.0.1:8000/admin*__; though by default it will open up the admin page(made modifications to the default page).
+    >http://127.0.0.1:8000/admin
+8. Login with the given credentials and then you can create, view or edit user and permissions, according to the login user permissions.
 
 ## About the project
 1. The __*admin*__ can add and delete a user, and can allow different permissions.
