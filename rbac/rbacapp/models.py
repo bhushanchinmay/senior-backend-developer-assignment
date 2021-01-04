@@ -7,7 +7,7 @@ from django.contrib.auth.admin import UserAdmin
 @admin.register(User)
 class CustomUserAdmin(UserAdmin):
 
-    # Not editable in the admin default change form
+    # Field not editable in the admin default change form
     readonly_fields = [
         'date_joined',
     ]
