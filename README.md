@@ -14,9 +14,9 @@
     >python manage.py runserver
 
 ## About the project
-1. The admin can add and delete a user
-2. The staff can view users that are already created.
-3. User cannot change permission for themselves, i.e. preventing users from editing their own permissions.
+1. The __*admin*__ can add and delete a user, and can allow different permissions.
+2. The __*staff*__ can view users that are already created.
+3. __*User*__ and only login if they have is_staff status and cannot change permission for themselves, i.e. preventing users from editing their own permissions.
 
 ## Implementation Details:
 1. I am using Django Admin to create custom admin for the User model in order to implement Custom Roles and Permissions.
